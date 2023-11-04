@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "STARTPAGE",
+    "short_name": "STARTPAGE",
+    "version": "1.1",
+    "description": "Overrides the browsers newtab page with a custom startpage.",
+    "author": "ZIONSENPAI",
+    "icons": {
+      "64": "img/icon64.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "STARTPAGE@zionsenpai.github.io/Personal-Portfolio/"
+      }
+    }
+  }
